@@ -1,0 +1,94 @@
+/* ----- TABLET SCREEN  ----- */
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .links-header{
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    /* ----- ABOUT US----- */
+    .about-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container--text{
+        width: 90%;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-container--text h3{
+        text-align: center;
+        
+    }
+
+    .about-container--text p{
+        text-align: center;
+    }
+
+
+
+    /* ----- Services----- */
+    .services .title{
+        margin-bottom: 10px;
+    }
+    .service-img{
+        width: 60%;
+        order: 1;
+    }
+    .servicio-ind h3{
+        order: 2;
+    }
+
+
+    /* ----- GALLLERY----- */
+    .imagen-port{
+        width: 44%;
+    }
+
+
+
+    /* ----- CLIENTS----- */
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }
+
+    .cards .card:first-child{
+        margin-bottom: 30px;
+    }
+
+
+
+    /* ----- SERVICES----- */
+    .service-cont{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-ind{
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .servicio-ind img{
+        width: 90%;
+    }
+}
