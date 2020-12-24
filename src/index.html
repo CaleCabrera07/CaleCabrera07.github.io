@@ -137,12 +137,12 @@
 
          <!---CONTACT FORM-->
          <section id="contact">
-            <h2 class="title">Contáctame</h2>
+            <h2 class="title">Contáctanos</h2>
             <p class="leading">Para más información, no dudes en contactarnos!</p>
-            <form>
-              <input type="text" placeholder='Nombre'>
-              <input type="email" placeholder='Email'>
-              <textarea placeholder='Tu mensaje...'></textarea>
+            <form action="correos.php" method="POST">
+              <input type="text" placeholder='Nombre' name="name">
+              <input type="email" placeholder='Email' name="email">
+              <textarea placeholder='Tu mensaje...' name="mensaje"></textarea>
               <button class="button"><a href="mailto:ccarlosalejandros@gmail.com">Enviar</a></button>
             </form>
           </section>
