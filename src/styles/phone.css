@@ -1,6 +1,15 @@
 /* ----- PHONE SCREEN  ----- */
 @media screen and (max-width:500px){
     /* ----- HEADER ----- */
+    header{
+        background: #d4de97;
+        background-image: url(../../assets/img/mesa-backgorund2B.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        position: relative;
+    }
     .links-header{
         display: none;
         text-align: center;
@@ -107,6 +116,8 @@
      .footer-content p{
          border-bottom: 1px solid #d4de97;
          padding-bottom: 20px;
+         color: #faf8f7;
+         text-decoration: none;
      }
      .sm-icons{
          width: 40px;
